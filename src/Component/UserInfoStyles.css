@@ -1,0 +1,21 @@
+#profileInfo {
+  background-color: #445444;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#profileInfo:hover {
+  transform: scale(0.99);
+}
+h1 {
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 375px) {
+  #profileInfo {
+    margin-bottom: 20px;
+  }
+}

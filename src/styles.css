@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.cardFrame {
+  margin-top: 100px;
+}
+#userCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+
+@media (max-width: 375px) {
+  #userCard {
+    flex-direction: column;
+  }
+}
